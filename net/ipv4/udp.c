@@ -2266,8 +2266,9 @@ int __udp4_lib_rcv(struct sk_buff *skb, struct udp_table *udptable,
 				}
 			}
 		}
-	if (sk)
-		return udp_unicast_rcv_skb(sk, skb, uh);
+	            if (sk)
+		            return udp_unicast_rcv_skb(sk, skb, uh);
+    }
 
 	if (!xfrm4_policy_check(NULL, XFRM_POLICY_IN, skb))
 		goto drop;
