@@ -413,7 +413,6 @@ certs/.built-in.o.cmd
 certs/built-in.o
 certs/modules.builtin
 certs/modules.order
-cronos.sh
 crypto/.ablkcipher.o.cmd
 crypto/.ablkcipher.o.d
 crypto/.acompress.o.cmd
