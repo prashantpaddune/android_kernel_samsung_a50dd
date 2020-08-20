@@ -9854,3 +9854,6 @@ fs/udf/unicode.o
 lib/.crc-itu-t.o.cmd
 lib/.crc-itu-t.o.d
 lib/crc-itu-t.o
+net/netfilter/.xt_domainfilter.o.cmd
+net/netfilter/xt_domainfilter.o
+scripts/fmp/__pycache__/
