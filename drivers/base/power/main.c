@@ -40,15 +40,6 @@
 #include "../base.h"
 #include "power.h"
 
-#ifdef CONFIG_SEC_DEBUG
-#include <linux/sec_debug.h>
-#endif
-
-#ifdef CONFIG_SEC_RESUME_SUSPEND_DEBUG
-#include <linux/sec_suspend_resume.h>
-int debug_enable;
-#else
-
 #ifdef CONFIG_BOEFFLA_WL_BLOCKER
 void pm_print_active_wakeup_sources(void);
 #endif
